@@ -57,8 +57,8 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        python-version: [3.9, 3.10]
-        django-version: [3.2]
+        python-version: ["3.9", "3.10"]
+        django-version: ["3.2", "4.0"]
     steps:
       - name: Download src dir
         uses: actions/download-artifact@v2
