@@ -13,11 +13,9 @@ poetry install
 ```
 
 ## Linting
-`flake8-black` and `flake8-isort` are installed too. The flake8-pylint pluging is still
-in early development, so we need to call pylint manually
+`flake8-black`, `flake8-isort` and `flake8-pylint` are installed too.
 ```bash
 flake8
-pylint src/
 ```
 
 ## Black
