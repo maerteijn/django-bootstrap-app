@@ -23,7 +23,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Django = "^3.2"
+Django = "~3.2"
 
 [tool.poetry.dev-dependencies]
 flake8 = "~4.0"
@@ -72,7 +72,7 @@ use_parentheses = true
 pythonpath = "sandbox"
 DJANGO_SETTINGS_MODULE = "settings"
 testpaths = "tests/"
-addopts = "--reuse-db --import-mode prepend --cov=django_bootstrap_app"
+addopts = "--reuse-db --cov=django_bootstrap_app"
 
 
 [tool.coverage.run]
